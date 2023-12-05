@@ -1,3 +1,4 @@
+[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=13106562&assignment_repo_type=AssignmentRepo)
 # Dijkstra's Algorithm
 
 Recall the pseudocode for Dijkstra's algorithm:
@@ -19,3 +20,5 @@ to be the most efficient one!
 
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+It will take $\Theta(V^2)$ time for my implementation because it will take $V$ time to initialize all the distances for the vertices, the while loop will take $V$ since it goes and visits all vertices, with each for loop inside taking $V$ time respectfully. Coming together this gives us a complexity of $\Theta(V + V(V + V)) = \Theta(V + 2V^2) = \Theta(V^2)$
