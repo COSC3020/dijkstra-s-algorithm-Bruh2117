@@ -21,4 +21,4 @@ to be the most efficient one!
 What is the big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
 
-It will take $\Theta(V^2)$ time for my implementation because it will take $V$ time to initialize all the distances for the vertices, the while loop will take $V$ since it goes and visits all vertices, with each for loop inside taking $V$ time respectfully. Coming together this gives us a complexity of $\Theta(V + V(V + V)) = \Theta(V + 2\dotV^2) = \Theta(V^2)$
+It will take $\Theta(V^2)$ time for my implementation because it will take $V$ time to initialize all the distances for the vertices, the while loop will take $V$ since it goes and visits all vertices, with each for loop inside taking $V$ time respectfully. Coming together this gives us a complexity of $\Theta(V + V(V + V)) = \Theta(V + 2V^2) = \Theta(V^2)$
